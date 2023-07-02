@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alvin Ajay - ijovi Banner</title>
+    <style>
+      /* purple #7200ec */
+      /* lighter purple #7b70f2 */
+      /* background grey #f2f2f2 */
+      .wrapper {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        height: 50vh;
+        padding: 10rem;
+      }
+
+      .banner {
+        border-radius: 5%;
+        margin: auto;
+        width: 300px;
+        height: 250px;
+        background-color: #f8f8f8;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        cursor: default;
+      }
+
+      .logo-wrapper {
+        width: 72%;
+        height: 40%;
+        padding: 0px 0.5rem;
+        position: relative;
+      }
+
+      .logo {
+        background: linear-gradient(#fff 0 0) padding-box,
+          linear-gradient(to right, #7b70f2, #7200ec) border-box;
+        color: #313149;
+        position: absolute;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        display: inline-block;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+      }
+
+      .logo img {
+        max-width: 80%;
+        margin: 14%;
+        padding-top: 13%;
+      }
+
+      .scrollable-text {
+        width: 100%;
+        height: 90%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out;
+        overflow-y: scroll;
+        background-color: rgba(255, 255, 255, 0.95);
+        color: black;
+        padding: 15px 10px;
+      }
+      .scrollable-border {
+        padding: 0.4em;
+        border: solid 1px black;
+        border-radius: 0.25em;
+        line-height: 1.15em;
+      }
+
+      .banner:hover .scrollable-text {
+        transform: translateY(-100%);
+      }
+
+      .scrollable-text p {
+        font-size: 0.85em;
+        margin-bottom: 1em;
+      }
+      .scrollable-text h6 {
+        font-size: 1em;
+        margin-bottom: 2px;
+      }
+
+      .scrollable-text a {
+        color: #ff5e3a;
+        text-decoration: none;
+      }
+
+      .title-wrapper {
+        margin: 0.55em;
+      }
+
+      .title-wrapper > h5 {
+        font-weight: 900;
+        color: #7200ec;
+        margin: 0;
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+      }
+
+      .title-wrapper > a {
+        cursor: pointer;
+        font-size: 0.75em;
+        font-weight: 700;
+        text-decoration: none;
+        color: #313149;
+      }
+
+      .link {
+        text-align: center;
+      }
+
+      .link > a {
+        font-weight: 800;
+        font-size: 0.75em;
+        font-style: italic;
+        color: #313149;
+      }
+
+      .outline {
+        border: 1px solid black;
+      }
+      .container {
+        height: 83%;
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="wrapper">
+        <div>
+          <h3>Banner submission by Alvin Ajay</h3>
+          <p>Assumptions made:</p>
+          <ul>
+            <li>
+              Hoverable scroll textbox has the black border from assignment PDF
+            </li>
+            <li>
+              Hoverable scroll text was given slight transparency to help users
+              identify that they are hovering
+            </li>
+            <li>
+              Hoverable scroll text scrollbar is hidden out of sight since
+              default scrollbar looks bland
+            </li>
+            <li>Font family looks like it belongs to Sans-serif</li>
+          </ul>
+          <p>Hover the component below!</p>
+        </div>
+        <div class="banner">
+          <div class="title-wrapper container">
+            <div class="logo-wrapper">
+              <div class="logo">
+                <img
+                  src="https://www.ijovi.com/wp-content/uploads/transperantlogo.png"
+                  alt="ijovi Logo"
+                />
+              </div>
+            </div>
+            <div class="title-wrapper">
+              <h5>HEALTHCARE COMMUNICATION PARTNER</h5>
+              <a href="https://www.ijovi.com" target="_blank">www.ijovi.com</a>
+            </div>
+          </div>
+          <div class="link">
+            <a href="#">Click to learn more</a>
+          </div>
+
+          <div class="scrollable-text">
+            <div class="scrollable-border">
+              <h6>OUR EXPERTISE</h6>
+              <p>
+                Our focus is on Healthcare Communication. We believe the heart
+                of a brand strategy starts with patient experience. Using our
+                individual competencies and skills, coming from industry and
+                academia, we leverage the synergies that are generated from our
+                diversity. Our knowledge spans from medicine, market access,
+                molecular, and human biology, to business and innovation,
+                marketing and strategic communication, health economics and data
+                analytics, to graphic design, art and illustrations and motion
+                design. We work closely with the market access experts at
+                Zealth, providing us the holistic understanding of pharma and
+                healthcare.
+              </p>
+              <h6>MARKETING & SALES EXCELLENCE</h6>
+              <p>
+                A good brand strategy enables you to identify and utilize your
+                competitive advantage. Driving demand requires a strategy that
+                is aligned with the specific market, but also operations that
+                follow all the way through. This requires true understanding of
+                the patient and customer, and tools that support effective
+                execution, measurement and reporting, and internal engagement.
+                We help you to unlock these opportunities and ensure that every
+                action you take conveys your brand promise and maximizes the
+                value of your product.
+              </p>
+              <h6>INSIGHTS & STRATEGY</h6>
+              <p>
+                Today, the customers control what information and communication
+                they want and set their expectations accordingly. Therefore, the
+                marketing today must be centered on the needs and beliefs of the
+                individual health care professionals or patients. A holistic
+                approach using omnichannel engagement provides the opportunity
+                to maintain HCP contact conveniently and cost-effectively at a
+                broad scale. We support you in creating the customer journey
+                that generates a seamless brand experience.
+              </p>
+              <h6>DESIGN & COMMUNICATION</h6>
+              <p>
+                We help you to identify the most important information for your
+                audience and create visual narratives that inspire your
+                audiences to act. We have a deep understanding of medical
+                aspects, and we understand the complexity of presenting clinical
+                results. We also create concepts that catch attention, generate
+                clear understanding, and uphold consistency to create
+                differentiation and recognition of your company. Every single
+                element, be it a chart or an icon, should contribute towards the
+                business goals. Our combined expertise makes us your ideal
+                Design Partner.
+              </p>
+              <h6>MEDICAL AFFAIRS EXCELLENCE</h6>
+              <p>
+                We know the importance of adapting communication to your
+                audience. Situations such as internal training and patient
+                communication require the ability to make the complexity of
+                medicine and research understandable and digestible on a
+                non-expert level. When it comes to healthcare professionals,
+                communicating clear and correct content is vital, since their
+                capacity and time to absorb new information is limited. With our
+                extensive background within medicine, molecular biology, and
+                human biology, from both academic and industry perspectives, we
+                know how to frame your product propositions in a way that
+                healthcare professionals find relevant and convincing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

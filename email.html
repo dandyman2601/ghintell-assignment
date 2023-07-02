@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alvin Ajay - Email</title>
+    <style>
+      @page {
+        size: A4;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        max-height: 297mm;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        margin: 2em;
+      }
+      .container-two {
+        margin: 0 2em;
+      }
+      .container-three {
+        background-color: #f8f8f8;
+        border-radius: 2em;
+        padding: 1em;
+        margin: 1em 4em;
+        font-size: small;
+        font-weight: 500;
+
+        .outline-text {
+          padding: 0.5em 1em;
+          color: #7b70f2;
+          font-style: italic;
+          font-weight: 700;
+        }
+        .container-text {
+          padding: 0.5em 1em;
+          /* font-size: smaller; */
+        }
+      }
+      .column-text {
+        font-size: larger;
+        margin: 0 4em;
+        line-height: 1.5;
+        column-count: 2;
+        column-gap: 2em;
+        font-weight: 500;
+      }
+      hr {
+        height: 10px;
+        border: 0;
+        box-shadow: 0 10px 10px -10px #333 inset;
+      }
+      .pill {
+        width: 100%;
+        border-radius: 50em;
+        background: linear-gradient(to right, #7b70f2, #7200ec);
+        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+      }
+      .title-wrapper {
+        display: flex;
+        background: #fff;
+        border-radius: 50em;
+        margin: 0.2rem;
+      }
+      .section-title-wrapper {
+        padding: 0.5em 0;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        color: #fff;
+        gap: 0.5em;
+        align-items: center;
+        justify-items: center;
+      }
+      .section-title-wrapper div {
+        margin: 0;
+        font-weight: 700;
+        font-size: x-large;
+      }
+      .section-title-wrapper svg {
+        margin-right: 0.7em;
+        width: 2em;
+        height: 2em;
+      }
+      .title-content {
+        font-weight: 900;
+        color: #7200ec;
+        margin: 0;
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+
+        .title {
+          margin-top: 0.5em;
+          font-size: xx-large;
+        }
+      }
+      .title-content a {
+        color: grey;
+      }
+      .logo {
+        margin: 1em;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        background: linear-gradient(to right, #7b70f2, #7200ec);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .logo-content {
+        color: white;
+        text-align: center;
+      }
+
+      @media print {
+        body {
+          /* max-height: 297mm; */
+          /* padding: 2em; */
+          font-size: 14pt;
+        }
+        .container {
+          margin: 0;
+          scale: 0.75;
+        }
+        .title-content {
+          .title {
+            font-size: 20pt;
+          }
+        }
+        .pill {
+          width: 100%;
+          border-radius: 50em;
+          background: linear-gradient(to right, #7b70f2, #7200ec);
+          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        }
+        .logo-content {
+          font-size: 10pt;
+        }
+        .container-two {
+          font-size: 10pt;
+          text-align: center;
+        }
+        .container-three {
+          margin: 1em 0;
+          /* padding: 0.5em; */
+        }
+        .column-text {
+          font-size: 8pt;
+          margin: 0;
+          column-count: 2;
+          column-gap: 1;
+          line-height: 1.2;
+        }
+        .section-title-wrapper > div {
+          font-size: 14pt;
+        }
+        .container-text {
+          font-size: 7pt;
+        }
+        .outline-text {
+          font-size: 7pt;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="container">
+        <div class="pill">
+          <div class="title-wrapper">
+            <div class="logo">
+              <div class="logo-content">
+                <h1 style="font-weight: bold">ijovi</h1>
+              </div>
+            </div>
+            <div class="title-content">
+              <div class="title">HEALTHCARE COMMUNICATION PARTNER</div>
+              <a href="https://www.ijovi.com" target="_blank">www.ijovi.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 class="container-two">
+        OUR EXPERTISE<span style="color: red">.</span>
+      </h1>
+      <hr />
+      <div class="container-two column-text">
+        Our focus is on <b><i>Healthcare Communication</i></b
+        >. We believe the heart of a brand strategy starts with patient
+        experience. Using our individual competencies and skills, coming from
+        industry and academia, we leverage the synergies that are generated from
+        our diversity. Our knowledge spans
+        <i
+          ><span style="color: red">from</span> medicine, market access,
+          molecular, and human biology,<br />
+          <span style="color: #7200ec">to</span> business and innovation,
+          marketing and strategic communication, health economics and data
+          analytics, to graphic design, art and illustrations and motion
+          design.</i
+        ><br /><br />
+        We work closely with the market access experts at Zealth, providing us
+        the holistic understanding of pharma and healthcare.
+      </div>
+      <div class="container-three">
+        <div class="pill section-title-wrapper">
+          <div></div>
+          <div>Marketing & Sales Excellence</div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M9 16.17L4.83 12l-1.42 1.41L9 19L21 7l-1.41-1.41L9 16.17z"
+            />
+          </svg>
+        </div>
+        <p class="outline-text">
+          A good brand strategy enables you to identify and utilize your
+          competitive advantage.
+        </p>
+        <p class="container-text">
+          Driving demand requires a strategy that is aligned with the specific
+          market, but also operations that follow all the way through. This
+          requires true understanding of the patient and customer, and tools
+          that support effective execution, measurement and reporting, and
+          internal engagement. We help you to unlock these opportunities and
+          ensure that every action you take conveys your brand promise and
+          maximizes the value of your product.
+        </p>
+      </div>
+      <div class="container-three">
+        <div class="pill section-title-wrapper">
+          <div></div>
+          <div>Insights & Strategy</div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M9 16.17L4.83 12l-1.42 1.41L9 19L21 7l-1.41-1.41L9 16.17z"
+            />
+          </svg>
+        </div>
+        <p class="outline-text">
+          Today, the customers control what information and communication they
+          want and set their expectations accordingly.
+        </p>
+        <p class="container-text">
+          Therefore, the marketing today must be centered on the needs and
+          beliefs of the individual health care professionals or patients. A
+          holistic approach using omnichannel engagement provides the
+          opportunity to maintain HCP contact conveniently and cost-effectively
+          at a broad scale. We support you in creating the customer journey that
+          generates a seamless brand experience.
+        </p>
+      </div>
+      <div class="container-three">
+        <div class="pill section-title-wrapper">
+          <div></div>
+          <div>Design & Communication</div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M9 16.17L4.83 12l-1.42 1.41L9 19L21 7l-1.41-1.41L9 16.17z"
+            />
+          </svg>
+        </div>
+        <p class="outline-text">
+          We help you to identify the most important information for your
+          audience and create visual narratives that inspire your audiences to
+          act.
+        </p>
+        <p class="container-text">
+          We have a deep understanding of medical aspects, and we understand the
+          complexity of presenting clinical results. We also create concepts
+          that catch attention, generate clear understanding, and uphold
+          consistency to create differentiation and recognition of your company.
+          Every single element, be it a chart or an icon, should contribute
+          towards the business goals. Our combined expertise makes us your ideal
+          Design Partner.
+        </p>
+      </div>
+      <div class="container-three">
+        <div class="pill section-title-wrapper">
+          <div></div>
+          <div>Medical Affairs Excellence</div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M9 16.17L4.83 12l-1.42 1.41L9 19L21 7l-1.41-1.41L9 16.17z"
+            />
+          </svg>
+        </div>
+        <p class="outline-text">
+          We know the importance of adapting communication to your audience.
+        </p>
+        <p class="container-text">
+          Situations such as internal training and patient communication require
+          the ability to make the complexity of medicine and research
+          understandable and digestible on a non-expert level. When it comes to
+          healthcare professionals, communicating clear and correct content is
+          vital, since their capacity and time to absorb new information is
+          limited. With our extensive background within medicine, molecular
+          biology, and human biology, from both academic and industry
+          perspectives, we know how to frame your product propositions in a way
+          that healthcare professionals find relevant and convincing.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
